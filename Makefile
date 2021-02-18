@@ -1,5 +1,5 @@
 all: build
 build: seq2profileAlignment.c
-	gcc -g -o seq2profileAlignment seq2profileAlignment.c.c
+	gcc -g -o alignSeqToProfile seq2profileAlignment.c
 clean:
-	rm -fr seq2profileAlignment.c seq2profileAlignment.c.o *~
+	rm -fr alignSeqToProfile seq2profileAlignment.o *~
