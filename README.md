@@ -24,7 +24,7 @@ For test purposes, there are examples sequences in *test* folder. After compilat
 alignSeqToProfile \
   --fasta seq. fasta \
   --aln aligned_sequences .aln \
-  --out seq. aln \
+  --out seq.aln \
   --gap 1 \
   --match 2 \
   --mismatch 3
